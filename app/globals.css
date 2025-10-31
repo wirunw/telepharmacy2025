@@ -3,13 +3,29 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+
+  /* Brand Colors from Logo */
+  --royal-blue: #2196F3;
+  --navy-blue: #0D47A1;
+  --light-blue: #64B5F6;
+  --blue-50: #E3F2FD;
+  --blue-100: #BBDEFB;
+  --blue-600: #1E88E5;
+  --blue-700: #1976D2;
+  --blue-800: #1565C0;
+  --blue-900: #0D47A1;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-sans: var(--font-sarabun);
+
+  /* Custom theme colors */
+  --color-primary: var(--royal-blue);
+  --color-primary-dark: var(--blue-700);
+  --color-secondary: var(--navy-blue);
+  --color-accent: var(--light-blue);
 }
 
 @media (prefers-color-scheme: dark) {
